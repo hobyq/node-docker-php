@@ -79,6 +79,7 @@ RUN apk update && \
     php7-mysqli \ 
     php7-simplexml \ 
     php7-xmlwriter \
-    wget && \
+    wget \
+    git && \
   wget https://getcomposer.org/installer && \
   php installer --install-dir=bin --filename=composer
